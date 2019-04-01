@@ -10,14 +10,7 @@ body {
     padding-bottom: 20px;
 }
 
-@keyframes fade-In {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
 .separator {
-    animation-name: fade-In;
-    animation-duration: 2.2s;
     background: white;
     background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.5) 35%,rgba(255,255,255,.5) 70%,rgba(255,255,255,0) 100%);
     width: 100%;
@@ -27,8 +20,6 @@ body {
 }
 
 .myName {
-    animation-name: fade-In;
-    animation-duration: 2s;
     font-family: 'Pacifico', cursive;
     color: white;
 }
@@ -51,33 +42,12 @@ body {
     font-size: 16px;
 }
 
-.education {
+.container {
     margin-top: 10vh;
 }
 
-.carousel-control 			 { width:  4%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
-@media (max-width: 767px) {
-    .carousel-inner .active.left { left: -100%; }
-    .carousel-inner .next        { left:  100%; }
-    .carousel-inner .prev		 { left: -100%; }
-    .active > div { display:none; }
-    .active > div:first-child { display:block; }
-
+.col-sm-1 {
+    margin-top: 5vh;
 }
-@media (min-width: 767px) and (max-width: 992px ) {
-    .carousel-inner .active.left { left: -50%; }
-    .carousel-inner .next        { left:  50%; }
-    .carousel-inner .prev		 { left: -50%; }
-    .active > div { display:none; }
-    .active > div:first-child { display:block; }
-    .active > div:first-child + div { display:block; }
-}
-@media (min-width: 992px ) {
-    .carousel-inner .active.left { left: -25%; }
-    .carousel-inner .next        { left:  25%; }
-    .carousel-inner .prev		 { left: -25%; }
-}
-
 
 
