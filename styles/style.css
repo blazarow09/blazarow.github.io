@@ -25,8 +25,6 @@ body {
 }
 
 .headerDesc {
-    animation-name: fade-In;
-    animation-duration: 2.5s;
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
     color: white;
@@ -47,7 +45,7 @@ body {
 }
 
 .col-sm-1 {
-    margin-top: 5vh;
+    margin-top: 5px;
 }
 
 
