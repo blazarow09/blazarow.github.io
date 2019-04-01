@@ -81,8 +81,58 @@ body {
     outline: none;
 }
 
+#top-btn {
+    width: 50px;
+    height: 50px;
+    bottom: -50px;
+    right: 20px;
+    position: fixed;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #dcdcdc;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
 
+#top-btn:hover {
+    background-color: #656d73;
+}
 
+#top-btn:hover i {
+    padding-top: 5px;
+}
 
+#top-btn i {
+    padding-top: 15px;
+    font-size: 20px;
+/line-height: 50px;
+    color: #FFFFFF;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
 
+.textbox {
+    height: 700px;
+}
+
+.progress {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    transition: width 1.5s ease;
+}
+
+.progress.active .progress-bar {
+    -webkit-transition: none !important;
+    transition: ease !important;
+}
+
+.bar{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #656d73;
+}
 
