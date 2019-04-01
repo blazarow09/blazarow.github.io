@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="./styles/animsition.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script rel="script" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -21,8 +22,8 @@
 
     <title>About Borislav Lazarov</title>
 </head>
-<body >
-    <div class="wrapper">
+<body>
+    <div class="wrapper animsition">
         <!--ScrollToTop-->
         <div class="row">
             <div class="col-md-12">
@@ -36,27 +37,27 @@
             <div class="container-banner">
                 <div class="row">
                     <div class="col-md-12 text-center col-md-offset-2 pv-20">
-                        <h3 class="myName animated fadeInUp">Borislav Lazarov</h3>
+                        <h3 class="myName wow fadeInUp">Borislav Lazarov</h3>
                     </div>
-                    <div class="separator object-non-visible mt-10 animated object-visible animated fadeInUp">
+                    <div class="separator object-non-visible mt-10 object-visible wow fadeInUp">
                     </div>
                     <div class="col-md-12 text-center col-md-offset-2 pv-20">
-                        <h5 class="text-monospace font-weight-light headerDesc animated fadeInUp"><small>Junior .NET Developer</small></h5>
+                        <h5 class="text-monospace font-weight-light headerDesc wow fadeInUp"><small>Junior .NET Developer</small></h5>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
         <!--About Me-->
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="animated fadeInDown title">About <b>Me</b></h1>
+                    <h1 class="wow fadeInDown title">About <b>Me</b></h1>
                     <hr/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8">
-                    <dl class="animated fadeInUp textStyle">
+                    <dl class="wow fadeInUp textStyle">
                         <dd>
                             <p><b>Heyo!</b> My name is <strong>Borislav Lazarov</strong> and I am currently studying <b>Software Engineering</b> in <b>Software University</b>, Sofia.</p>
                         </dd>
@@ -138,10 +139,6 @@
                     </div>
                 </div>
             </div>
-        <!--Carousel-->
-        <!--<div class="container carousel" >
-            &lt;!&ndash;TODO&ndash;&gt;
-        </div>-->
         <!--Professional Skills-->
         <div class="container">
             <div class="row">
@@ -180,6 +177,7 @@
             </div>
         </div>
     </div>
+        <!--Certificates-->
         <section class="parallax wow fadeInRight">
             <div class="container">
                 <div class="row">
@@ -195,7 +193,7 @@
                     <!--Programming Basics-->
                     <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" >
                         <div class="box border-none bg-white box-shadow-large">
-                            <img class="phover" src="./img/certificates/PBCert.png" height="200" width="180" id="pbImg" data-target="#myModal">
+                            <img class="phover" src="./img/certificates/PBCert.png" height="225" width="180" id="pbImg" data-target="#myModal">
                             <div id="pbModal" class="modal">
                                 <span class="close" id="pbClose">&times;</span>
                                 <img class="modal-content" src="./img/certificates/PbCertF.png" width="331" height="456">
@@ -207,9 +205,9 @@
                         </div>
                     </div>
                     <!--Programming Fundamentals-->
-                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
+                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.1s">
                         <div class="box border-none bg-white box-shadow-large">
-                            <img class="phover" src="./img/certificates/pfCert.png" height="200" width="180" id="pfImg" data-target="#myModal">
+                            <img class="phover" src="./img/certificates/pfCert.png" height="225" width="180" id="pfImg" data-target="#myModal">
                             <div id="pfModal" class="modal">
                                 <span class="close" id="pfClose">&times;</span>
                                 <img class="modal-content" src="./img/certificates/pfCertF.png" width="331" height="456" >
@@ -221,9 +219,9 @@
                         </div>
                     </div>
                     <!--Software Technologies-->
-                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.4s">
+                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
                         <div class="box border-none bg-white box-shadow-large">
-                            <img class="phover" src="./img/certificates/stCert.png" height="200" width="180" id="stImg" data-target="#myModal">
+                            <img class="phover" src="./img/certificates/stCert.png" height="225" width="180" id="stImg" data-target="#myModal">
                             <div id="stModal" class="modal">
                                 <span class="close" id="stClose">&times;</span>
                                 <img class="modal-content" src="./img/certificates/stCertF.png" width="331" height="456" >
@@ -235,9 +233,9 @@
                         </div>
                     </div>
                     <!--C# Advanced-->
-                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.6s">
+                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.3s">
                         <div class="box border-none bg-white box-shadow-large">
-                            <img class="phover" src="./img/certificates/caCert.png" height="200" width="180" id="caImg" data-target="#myModal">
+                            <img class="phover" src="./img/certificates/caCert.png" height="225" width="180" id="caImg" data-target="#myModal">
                             <div id="caModal" class="modal">
                                 <span class="close" id="caClose">&times;</span>
                                 <img class="modal-content" src="./img/certificates/caCertF.png" width="331" height="456" >
@@ -248,47 +246,64 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin">
-                        <div class="box border-none bg-white box-shadow-large">
-                            <figure>
-                                <img src="./img/certificates/PBCert.png">
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.2s">
-                        <div class="box border-none bg-white box-shadow-large">
-                            <figure>
-                                <h6 class="text-deep-pink font-weight-300 margin-5px-bottom">26+</h6>
-                                <span class="alt-font text-extra-dark-gray d-block margin-5px-bottom">Truly Unique Home Pages</span>
-                                <div class="details">
-                                    <p class="width-80 mx-auto">The best collection of ready home pages for quick start of your website generation</p>
-                                </div>
-                            </figure>
-                        </div>
-                    </div>
+                    <!--C# OOP Basics-->
                     <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.4s">
                         <div class="box border-none bg-white box-shadow-large">
-                            <figure>
-                                <h6 class="text-deep-pink font-weight-300 margin-5px-bottom">26+</h6>
-                                <span class="alt-font text-extra-dark-gray d-block margin-5px-bottom">Truly Unique Home Pages</span>
-                                <div class="details">
-                                    <p class="width-80 mx-auto">The best collection of ready home pages for quick start of your website generation</p>
+                            <img class="phover" src="./img/certificates/cbCert.png" height="225" width="180" id="cbImg" data-target="#myModal">
+                            <div id="cbModal" class="modal">
+                                <span class="close" id="cbClose">&times;</span>
+                                <img class="modal-content" src="./img/certificates/cbCertF.png" width="331" height="456" >
+                                <div class="caption" id="cbCaption">
+                                    <p>C# OOP Basics</p>
+                                    <a href="https://softuni.bg/certificates/details/59861/7b7f1657" target="_blank">Check Validity Here</a>
                                 </div>
-                            </figure>
+                            </div>
                         </div>
                     </div>
+                    <!--C# OOP Advanced-->
+                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.5s">
+                        <div class="box border-none bg-white box-shadow-large">
+                            <img class="phover" src="./img/certificates/coaCert.png" height="225" width="180" id="coaImg" data-target="#myModal">
+                            <div id="coaModal" class="modal">
+                                <span class="close" id="coaClose">&times;</span>
+                                <img class="modal-content" src="./img/certificates/coaCertF.png" width="331" height="456" >
+                                <div class="caption" id="coaCaption">
+                                    <p>C# OOP Advanced</p>
+                                    <a href="https://softuni.bg/certificates/details/61338/6f205a37" target="_blank">Check Validity Here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--JS Fundamentals-->
                     <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.6s">
                         <div class="box border-none bg-white box-shadow-large">
-                            <figure>
-                                <h6 class="text-deep-pink font-weight-300 margin-5px-bottom">26+</h6>
-                                <span class="alt-font text-extra-dark-gray d-block margin-5px-bottom">Truly Unique Home Pages</span>
-                                <div class="details">
-                                    <p class="width-80 mx-auto">The best collection of ready home pages for quick start of your website generation</p>
+                            <img class="phover" src="./img/certificates/jsfCertF.png" height="225" width="180" id="jsfImg" data-target="#myModal">
+                            <div id="jsfModal" class="modal">
+                                <span class="close" id="jsfClose">&times;</span>
+                                <img class="modal-content" src="./img/certificates/jsfCertF.png" width="331" height="456" >
+                                <div class="caption" id="jsfCaption">
+                                    <p>JavaScript Fundamentals</p>
+                                    <a href="https://softuni.bg/certificates/details/62639/76560cc8" target="_blank">Check Validity Here</a>
                                 </div>
-                            </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <!--SOON-->
+                    <div class="col-xl-3 col-md-6 padding-15px-tb wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.7s">
+                        <div class="box border-none bg-white box-shadow-large">
+                            <img class="phover" src="./img/certificates/soon.png" height="225" width="180" id="soonImg" data-target="#myModal">
+                            <div id="soonModal" class="modal">
+                                <span class="close" id="soonClose">&times;</span>
+                                <img class="modal-content" src="./img/certificates/soonF.png" width="331" height="456" >
+                                <div class="caption" id="soonCaption">
+                                    <p>SOON</p>
+                                    <!--<a href="#" target="_blank">Check Validity Here</a>-->
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <!-- Footer -->
@@ -305,5 +320,7 @@
     <script src="./scripts/main/ScrollToTop.js"></script>
     <script src="./scripts/main/ProgressBarIncrease.js"></script>
     <script src="./scripts/main/CertificatesModal.js"></script>
+    <script src="./scripts/animsition/animsition.min.js"></script>
+    <script>$('.animsition').animsition();</script>
 </body>
 </html>
