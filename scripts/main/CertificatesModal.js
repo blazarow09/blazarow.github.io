@@ -54,7 +54,7 @@ $(function f() {
 
 // When the user clicks on <span> (x), close the modal
     pbClose.onclick = function() {
-        pfModal.style.display = "none";
+        pbModal.style.display = "none";
     };
 
     pfClose.onclick = function() {
