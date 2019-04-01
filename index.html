@@ -6,31 +6,31 @@
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/animate.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Roboto:light-italic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script rel="script" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script rel="script" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js"></script>
-
-
-
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
-    <script>
+    <script rel="script" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./scripts/waypoints/imakewebthings-waypoints-latest-0-g34d9f6d/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+    <script src="./scripts/waypoints/imakewebthings-waypoints-latest-0-g34d9f6d/imakewebthings-waypoints-34d9f6d/src/shortcuts/inview.js"></script>
 
-    </script>
-
-    <title>blazarow Personal Portfolio</title>
+    <title>About Borislav Lazarov</title>
 </head>
 <body >
     <div class="wrapper">
+        <!--ScrollToTop-->
+        <div class="row">
+            <div class="col-md-12">
+                <div id="top-btn">
+                    <i class="fa fa-angle-up"></i>
+                </div>
+            </div>
+        </div>
         <!--Banner-->
         <div class="banner dark-translucent">
             <div class="container-banner">
@@ -66,12 +66,6 @@
                         <dd>
                             <p>Some of my passions are <b>C#</b> and <b>JavaScript</b> technologies like <b>Entity Framework</b>, <b>SQL Server</b>, <b>Jquery</b>, <b>Bootstrap </b> and more.</p>
                         </dd>
-                        <dd>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid animi consequatur consequuntur cupiditate distinctio                               dolore dolores dolorum facere hic illo libero natus necessitatibus nobis nulla, perferendis, quia temporibus velit? </p>
-                        </dd>
-                        <dd>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, laudantium, veniam! Accusantium architecto, asperiores                                    aspernatur assumenda autem ex harum labore necessitatibus nemo nobis perspiciatis, quam reiciendis sapiente sequi tempora                                  vitae?</p>
-                        </dd>
                     </dl>
                 </div>
                 <div class="col-md-4">
@@ -80,9 +74,9 @@
             </div>
         </div>
         <!--Education-->
-
             <div class="container education">
                 <div class="row">
+                    <!--Taken Modules-->
                     <div class="col-md-6">
                         <h1 class="wow fadeInUp text-center title">Taken <b>Modules</b></h1>
                         <hr/>
@@ -91,9 +85,9 @@
                             <div>
                                 <dl class="textStyle">
                                     <dt><b>Tech Module</b></dt>
-                                    <dd>This course expands the accumulated knowledge so far in the "Programming Basics" course and introduces basic                                                techniques and tools for practical programming constructs.</dd>
+                                    <dd>This course expands the accumulated knowledge so far in the "Programming Basics" course and introduces basic techniques and tools for practical programming constructs.</dd>
                                     <dt><b>Software Technologies</b></dt>
-                                    <dd>This course aims to introduce the students to the four main languages they are taught in the academy - C#,                                                  Java, Javascript, PHP.</dd>
+                                    <dd>This course aims to introduce the students to the four main languages they are taught in the academy - C#, Java, Javascript, PHP.</dd>
                                 </dl>
                             </div>
                             <h3 class="textStyle"><b>C# Fundamenals</b></h3>
@@ -129,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-
+                    <!--Personal Skills-->
                     <div class="col-md-6">
                         <h1 class="wow fadeInUp text-center title">Personal <b>Skills</b></h1>
                         <hr/>
@@ -143,47 +137,61 @@
                         </dl>
                     </div>
                 </div>
-
-                </div>
             </div>
-        </div>
         <!--Carousel-->
         <div class="container carousel" >
-           <!--TODO-->
+            <!--TODO-->
         </div>
         <!--My Skills-->
-
-                <div class="col-md-6">
-                        <h1 class="wow fadeInUp text-center title">My <b>Skills</b></h1>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 wow fadeInUp">
+                    <h1 class="wow fadeInUp text-center title">Professional <b>Skills</b></h1>
+                    <hr/>
+                    <div id="progressBars" class="wow fadeInUp">
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb1"><span class="text-left pl-2">C#</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb2"><span class="text-left pl-2">Entity Framework Core</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb3"><span class="text-left pl-2">OOP</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb4"><span class="text-left pl-2">MS SQL</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb5"><span class="text-left pl-2">JavaScript</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb6"><span class="text-left pl-2">Jquery</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb7"><span class="text-left pl-2">HTML & CSS</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb8"><span class="text-left pl-2">Bootstrap</span></div>
+                    </div>
+                    <div class="progress progress-striped active" >
+                        <div class="progress-bar progress-bar-success bar" id="pb9"><span class="text-left pl-2">Clean Code</span></div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
         <!-- Footer -->
         <footer class="wow fadeInUp card-footer mt-5">
             <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                <a href="https://github.com/blazarow09">blazarow</a>
+              <a href="https://github.com/blazarow09">blazarow</a>
             </div>
         </footer>
     </div>
+
     <script src="./scripts/wow.js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-
-        $( function() {
-        let icons = {
-            header: "ui-icon-star",
-                activeHeader: "ui-icon-star"
-        };
-
-            $( "#accordion" ).accordion({
-                heightStyle: "content",
-                collapsible: true,
-                icons : icons,
-                border: "1px solid black"
-            });
-        } );
-    </script>
-
+    <script>new WOW().init();</script>
+    <script src="scripts/main/AccordionInit.js"></script>
+    <script src="./scripts/main/ScrollToTop.js"></script>
+    <script src="./scripts/main/ProgressBarIncrease.js"></script>
 </body>
 </html>
