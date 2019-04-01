@@ -35,9 +35,10 @@ body {
     font-size: 26px;
 }
 
-.descriptionAboutMe {
+.textStyle {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+    color: #656d73;
 }
 
 .container {
@@ -47,5 +48,41 @@ body {
 .col-sm-1 {
     margin-top: 5px;
 }
+
+.back {
+    background-color: rgba(211, 217, 223, 0.53);
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.education {
+    padding-top: 10px;
+}
+
+#accordion .ui-accordion-header  {
+    background-color: #DCDCDC;
+    color: #656d73;
+    background-image: none;
+    border: none ;
+}
+
+#accordion .ui-accordion-header.ui-state-active  {
+    background-color: #DCDCDC;
+    color: #656d73;
+    border: 1px dotted #7B7B7B;
+
+}
+
+#accordion .ui-accordion-header:active  {
+    border: none ;
+}
+
+#accordion .ui-accordion-header {
+    outline: none;
+}
+
+
+
+
 
 
