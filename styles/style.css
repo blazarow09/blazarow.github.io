@@ -79,11 +79,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 #accordion .ui-accordion-header  {
-    background-color: #DCDCDC;
-    color: #656d73;
-    background-image: none;
-    border: none ;
-}
+     background-color: #DCDCDC;
+     color: #656d73;
+     background-image: none;
+     border: none ;
+ }
 
 #accordion .ui-accordion-header.ui-state-active  {
     background-color: #DCDCDC;
@@ -96,6 +96,27 @@ body::-webkit-scrollbar-thumb {
 }
 
 #accordion .ui-accordion-header {
+    outline: none;
+}
+
+#accordionEd .ui-accordion-header  {
+    background-color: #DCDCDC;
+    color: #656d73;
+    background-image: none;
+    border: none ;
+}
+
+#accordionEd .ui-accordion-header.ui-state-active  {
+    background-color: #DCDCDC;
+    color: #656d73;
+    border: 1px dotted #7B7B7B;
+}
+
+#accordionEd .ui-accordion-header:active  {
+    border: none ;
+}
+
+#accordionEd .ui-accordion-header {
     outline: none;
 }
 
