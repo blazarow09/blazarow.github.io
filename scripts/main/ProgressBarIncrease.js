@@ -1,7 +1,7 @@
 (function Init() {
     new Waypoint.Inview({
         element: $('.progress'),
-        enter: function (direction) {
+        entered: function (direction) {
             InitializeBars(direction);
             this.destroy();
         },
