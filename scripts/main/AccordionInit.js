@@ -4,10 +4,17 @@ $(function accordionInit() {
         activeHeader: "ui-icon-star"
     };
 
-    $( "#accordion" ).accordion({
+    $("#accordion").accordion({
         heightStyle: "content",
         collapsible: true,
         icons : icons,
         border: "1px solid black"
-    }); 
-} );
+    });
+
+    $("#accordionEd").accordion({
+            heightStyle: "content",
+            collapsible: true,
+            icons : icons,
+            border: "1px solid black"
+        });
+});
