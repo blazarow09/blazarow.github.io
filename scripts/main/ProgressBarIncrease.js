@@ -11,7 +11,7 @@
 function InitializeBars(direction) {
     $(function() {
 
-        if(direction === "down"){
+      
             $("#pb1").animate({
                 width: "60%"
             }, 999);
@@ -39,7 +39,7 @@ function InitializeBars(direction) {
             $("#pb9").animate({
                 width: "90%"
             }, 999);
-        }
+        
     });
 }
 
