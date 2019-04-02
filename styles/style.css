@@ -1,5 +1,7 @@
 body{
     overflow-x: hidden;
+    padding-left: -15px;
+    padding-right: -15px;
 }
 
 .dark-translucent {
