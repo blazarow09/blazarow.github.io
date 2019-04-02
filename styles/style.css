@@ -78,24 +78,24 @@ body::-webkit-scrollbar-thumb {
     padding-top: 10px;
 }
 
-#accordion .ui-accordion-header  {
+.accordion .ui-accordion-header  {
     background-color: #DCDCDC;
     color: #656d73;
     background-image: none;
     border: none ;
 }
 
-#accordion .ui-accordion-header.ui-state-active  {
+.accordion .ui-accordion-header.ui-state-active  {
     background-color: #DCDCDC;
     color: #656d73;
     border: 1px dotted #7B7B7B;
 }
 
-#accordion .ui-accordion-header:active  {
+.accordion .ui-accordion-header:active  {
     border: none ;
 }
 
-#accordion .ui-accordion-header {
+.accordion .ui-accordion-header {
     outline: none;
 }
 
