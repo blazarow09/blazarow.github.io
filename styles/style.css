@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .dark-translucent {
     background-image: url("../img/headerBack.png");
     background-size: cover;
