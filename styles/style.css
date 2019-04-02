@@ -28,6 +28,11 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
 }
 
+.myPhoto {
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px lightgray;
+}
+
 .separator {
     background: white;
     background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.5) 35%,rgba(255,255,255,.5) 70%,rgba(255,255,255,0) 100%);
