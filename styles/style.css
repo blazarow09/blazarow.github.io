@@ -173,6 +173,8 @@ body::-webkit-scrollbar-thumb {
 .progress.active .progress-bar {
     -webkit-transition: none !important;
     transition: ease !important;
+    background-color: #0cb5f1;
+    box-shadow: 1px 1px 15px grey
 }
 
 .bar{
