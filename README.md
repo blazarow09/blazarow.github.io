@@ -1,7 +1,8 @@
 Personal Portfolio/CV
 ===============
 ## Description
-* My personal portfolio/CV created during my education in Software University (SoftUni).
+* My personal portfolio/CV created during my education in Software University (SoftUni). 
+* HTML, CSS and main scripts are made from scratch.
 
 ## Dependencies
 * Materialize CSS and JS
