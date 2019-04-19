@@ -1,5 +1,5 @@
 (() => {
-    document.addEventListener('click', function (event) {
+    $(document).ready( document.addEventListener('click', function (event) {
         let parentElement = event.target.parentNode;
 
         if ($(event.target).attr('class') === 'phover') {
@@ -9,15 +9,15 @@
             let modalCaptionText = modal.querySelector('.caption p').innerHTML;
             let modalCaption = modal.querySelector('.caption p');
 
-            $(modal).toggle();
+            $(modal).css('display', 'block');
             modalImg.src = modalImgSrc;
             modalCaption.innerHTML = modalCaptionText;
         }
 
         if ($(event.target).attr('class') === 'close') {
             let modal = event.target.parentNode;
-            $(modal).toggle();
+            $(modal).css('display', 'none');
         }
-    }, false);
+    }, false));
 })();
 
