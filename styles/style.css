@@ -28,6 +28,11 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
 }
 
+.dark-translucent::after {
+    position: absolute;
+
+}
+
 .myPhoto {
     border-radius: 10px;
     box-shadow: 1px 1px 20px lightgray;
