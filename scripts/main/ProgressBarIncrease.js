@@ -8,19 +8,22 @@
     });
 })();
 
-function InitializeBars() {
-    $(function() {
-        let bars = $('#progressBars .bar');
+function InitializeBars(direction) {
+    if(direction === 'down'){
+        $(function() {
+            let bars = $('#progressBars .bar');
 
-        for (let i = 0; i < bars.length; i++) {
-            const bar = bars[i];
-            let percent = $(bar).attr('aria-valuemax');
+            for (let i = 0; i < bars.length; i++) {
+                const bar = bars[i];
+                let percent = $(bar).attr('aria-valuemax');
 
-            $(bar).animate({
-                width: `${percent}%`
-            }, 999)
-        }
-    });
+                $(bar).animate({
+                    width: `${percent}%`
+                }, 999)
+            }
+        });
+    }
+
 }
 
 
