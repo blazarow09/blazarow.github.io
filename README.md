@@ -7,7 +7,7 @@ Personal Portfolio/CV
 ## Dependencies
 * Materialize CSS and JS
 * Font Awesome CSS for icons
-* jQuery/ Jquery-ui (for Materialize)
+* jQuery/ jQuery-UI (for Materialize)
 * Bootstrap
 * WOW.js(for animations)
 * Animsition
