@@ -12,3 +12,7 @@ Personal Portfolio/CV
 * WOW.js(for animations)
 * Animsition
 * Waypoints(Inview)
+
+## Live at 
+[blazarow.eu](http://blazarow.eu/)
+
