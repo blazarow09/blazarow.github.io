@@ -10,16 +10,22 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
 }
 
 .dark-translucent {
-    background-image: url("../img/headerBack.png");
+    
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.25), 
+        rgba(10, 10, 10, 0.25)
+      ), url("../img/headerBack.png");
     background-size: cover;
     position: relative;
     min-height: 250px;
@@ -48,8 +54,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .myName {
+    font-size: 1.40rem;
     font-family: 'Pacifico', cursive;
     color: white;
+}
+
+.b-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 100
+    
 }
 
 .headerDesc {
@@ -60,7 +74,13 @@ body::-webkit-scrollbar-thumb {
 
 .title {
     font-family: 'Raleway', sans-serif;
-    font-size: 26px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.b-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -70,8 +90,10 @@ body::-webkit-scrollbar-thumb {
     color: #656d73;
 }
 
-.container {
-    margin-top: 10vh;
+.b-footer-container {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    
 }
 
 .col-sm-1 {
@@ -89,16 +111,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 #accordion .ui-accordion-header  {
-     background-color: #DCDCDC;
-     color: #656d73;
-     background-image: none;
-     border: none ;
+    background-color: #f5f5f5;
+    color: #656d73f5;
+    border: none;
+    font-weight: 300;
  }
 
 #accordion .ui-accordion-header.ui-state-active  {
-    background-color: #DCDCDC;
-    color: #656d73;
+    background-color: #dcdcdc96;
+    color: #656d73f5;
     border: 1px #7B7B7B;
+    font-weight: 400;
 }
 
 #accordion .ui-accordion-header:active  {
@@ -110,16 +133,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 #accordionEd .ui-accordion-header  {
-    background-color: #DCDCDC;
-    color: #656d73;
-    background-image: none;
+    background-color: #f5f5f5;
+    color: #656d73f5;
     border: none ;
+    font-weight: 300;
 }
 
 #accordionEd .ui-accordion-header.ui-state-active  {
-    background-color: #DCDCDC;
-    color: #656d73;
+    background-color: #dcdcdc96;
+    color: #656d73f5;
     border: 1px #7B7B7B;
+    font-weight: 400;
 }
 
 #accordionEd .ui-accordion-header:active  {
@@ -155,9 +179,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #top-btn i {
-    padding-top: 15px;
     font-size: 20px;
-/line-height: 50px;
+    line-height: 50px;
     color: #FFFFFF;
     -webkit-transition: all .8s;
     transition: all .8s;
@@ -355,3 +378,7 @@ body::-webkit-scrollbar-thumb {
     color: white;
 }
 
+.card-footer {
+    background-color:  #f5f5f5 !important;
+    border-top: 1px solid #eaeaea !important;
+}
