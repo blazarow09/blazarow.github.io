@@ -4,14 +4,21 @@ $(function accordionInit() {
         activeHeader: "ui-icon-star"
     };
 
-    $("#accordion").accordion({
+    $("#accordion-tm").accordion({
         heightStyle: "content",
         collapsible: true,
         icons : icons,
         border: "1px solid black"
     });
 
-    $("#accordionEd").accordion({
+    $("#accordion-ed").accordion({
+            heightStyle: "content",
+            collapsible: true,
+            icons : icons,
+            border: "1px solid black"
+        });
+
+    $("#accordion-pe").accordion({
             heightStyle: "content",
             collapsible: true,
             icons : icons,

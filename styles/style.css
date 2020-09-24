@@ -104,47 +104,25 @@ body::-webkit-scrollbar-thumb {
     padding-top: 10px;
 }
 
-#accordion .ui-accordion-header  {
+.accordion .ui-accordion-header  {
     background-color: #f5f5f5;
     color: #656d73f5;
     border: none;
     font-weight: 300;
  }
 
-#accordion .ui-accordion-header.ui-state-active  {
+.accordion .ui-accordion-header.ui-state-active  {
     background-color: #dcdcdc96;
     color: #656d73f5;
     border: 1px #7B7B7B;
     font-weight: 400;
 }
 
-#accordion .ui-accordion-header:active  {
+.accordion .ui-accordion-header:active  {
     border: none ;
 }
 
-#accordion .ui-accordion-header {
-    outline: none;
-}
-
-#accordionEd .ui-accordion-header  {
-    background-color: #f5f5f5;
-    color: #656d73f5;
-    border: none ;
-    font-weight: 300;
-}
-
-#accordionEd .ui-accordion-header.ui-state-active  {
-    background-color: #dcdcdc96;
-    color: #656d73f5;
-    border: 1px #7B7B7B;
-    font-weight: 400;
-}
-
-#accordionEd .ui-accordion-header:active  {
-    border: none ;
-}
-
-#accordionEd .ui-accordion-header {
+.accordion .ui-accordion-header {
     outline: none;
 }
 
