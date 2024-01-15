@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="908f5174-a630-4e93-8582-29e48c8908c2" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="908f5174-a630-4e93-8582-29e48c8908c2" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,22 +19,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1454">
-              <caret line="506" column="57" selection-start-line="506" selection-start-column="57" selection-end-line="506" selection-end-column="57" />
-              <folding>
-                <element signature="e#19311#19318#1" expanded="true" />
-                <element signature="e#20280#20287#1" expanded="true" />
-                <element signature="e#21250#21257#1" expanded="true" />
-                <element signature="e#22207#22214#1" expanded="true" />
-                <element signature="e#23156#23163#1" expanded="true" />
-                <element signature="e#24110#24117#1" expanded="true" />
-                <element signature="e#25069#25076#1" expanded="true" />
-                <element signature="e#26028#26035#1" expanded="true" />
-                <element signature="e#26979#26986#1" expanded="true" />
-                <element signature="e#27935#27942#1" expanded="true" />
-                <element signature="e#28910#28917#1" expanded="true" />
-                <element signature="e#29880#29887#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="12600">
+              <caret line="504" column="57" selection-start-line="504" selection-start-column="57" selection-end-line="504" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -41,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/main/CertificatesModal.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -49,8 +37,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+            <state relative-caret-position="259">
+              <caret line="152" column="16" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -146,16 +134,16 @@
       <workItem from="1555832194053" duration="17000" />
       <workItem from="1556138930703" duration="340000" />
       <workItem from="1556196784132" duration="484000" />
-      <workItem from="1568911957814" duration="5958000" />
+      <workItem from="1568911957814" duration="6232000" />
+      <workItem from="1569359794564" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22067000" />
+    <option name="totallyTimeSpent" value="22989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.13681428" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -179,19 +167,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13417052" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -204,22 +192,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12650">
+          <caret line="506" column="57" selection-start-line="506" selection-start-column="57" selection-end-line="506" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/main/CertificatesModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12800">
           <caret line="543" selection-start-line="543" selection-end-line="543" />
-          <folding>
-            <element signature="e#19311#19318#1" expanded="true" />
-            <element signature="e#20280#20287#1" expanded="true" />
-            <element signature="e#21250#21257#1" expanded="true" />
-            <element signature="e#22207#22214#1" expanded="true" />
-            <element signature="e#23156#23163#1" expanded="true" />
-            <element signature="e#24110#24117#1" expanded="true" />
-            <element signature="e#25069#25076#1" expanded="true" />
-            <element signature="e#26028#26035#1" expanded="true" />
-            <element signature="e#26979#26986#1" expanded="true" />
-            <element signature="e#27935#27942#1" expanded="true" />
-            <element signature="e#28910#28917#1" expanded="true" />
-            <element signature="e#29880#29887#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -287,35 +282,21 @@
     <entry file="file://$PROJECT_DIR$/scripts/main/CertificatesModal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1454">
-          <caret line="506" column="57" selection-start-line="506" selection-start-column="57" selection-end-line="506" selection-end-column="57" />
-          <folding>
-            <element signature="e#19311#19318#1" expanded="true" />
-            <element signature="e#20280#20287#1" expanded="true" />
-            <element signature="e#21250#21257#1" expanded="true" />
-            <element signature="e#22207#22214#1" expanded="true" />
-            <element signature="e#23156#23163#1" expanded="true" />
-            <element signature="e#24110#24117#1" expanded="true" />
-            <element signature="e#25069#25076#1" expanded="true" />
-            <element signature="e#26028#26035#1" expanded="true" />
-            <element signature="e#26979#26986#1" expanded="true" />
-            <element signature="e#27935#27942#1" expanded="true" />
-            <element signature="e#28910#28917#1" expanded="true" />
-            <element signature="e#29880#29887#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="12600">
+          <caret line="504" column="57" selection-start-line="504" selection-start-column="57" selection-end-line="504" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="259">
+          <caret line="152" column="16" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
         </state>
       </provider>
     </entry>
